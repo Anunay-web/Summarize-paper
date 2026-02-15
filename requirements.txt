@@ -18,7 +18,8 @@ django-redis-cache
 django_heroku
 django-bmemcached
 dj-database-url
-tiktoken
+tiktoken==0.5.2
+
 #git+https://github.com/qkral/pyfpdf.git
 langchain==0.0.124
 openai==0.27.0
@@ -28,3 +29,4 @@ pylatexenc
 pdfkit
 beautifulsoup4
 html5lib
+pip freeze > requirements.txt
